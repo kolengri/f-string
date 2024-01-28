@@ -6,6 +6,10 @@
   "main": "dist/index.js",
   "module": "dist/f-string.esm.js",
   "typings": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kolengri/f-string.git"
+  },
   "files": [
     "dist",
     "src"
