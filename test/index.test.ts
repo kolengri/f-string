@@ -1,7 +1,8 @@
-import { sum } from '../src/index';
+import { f } from '../src/index';
 
-describe('sum', () => {
+describe(f.name, () => {
   it('adds two numbers together', () => {
-    expect(sum(1, 1)).toEqual(2);
+    const g = 'test2';
+    console.log(f`test test ${g} ${g}`);
   });
 });
