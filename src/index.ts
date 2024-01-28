@@ -1,6 +1,7 @@
 export const f = (strings: TemplateStringsArray, ...values: string[]) => {
   console.log(strings, values);
-  return 's';
+
+  return values.reduce((final) => {});
 };
 
 export default f;
